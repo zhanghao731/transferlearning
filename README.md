@@ -58,18 +58,28 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Weekly latest papers**
-  - 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
-    - Recognizing unseen classes in unseen domains
-    - 对未知领域识别未知类
-- 20200821 [Self-Supervised Learning Across Domains](https://arxiv.org/abs/2007.12368)
-    - 跨领域自监督学习
-  - 20200813 ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
-    - Theory for universal machine translation
-    - 对统一机器翻译模型进行了理论论证
-- 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
-    - Learning to cluster under domain shift
-    - 在domain shift的情况下进行聚类
+- **Latest papers**
+
+  - 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
+    - Transfer learning for vessel segmentation from retinal images
+    - 迁移学习用于视网膜血管分割
+
+  - 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
+    - OOD generalization
+    - 用特征分解和语义增强做OOD泛化
+
+  - 20201215 AAAI-21 [Multilingual Transfer Learning for QA Using Translation as Data Augmentation](https://arxiv.org/abs/2012.05958)
+    - Multilingual transfer learning for QA
+    - 用于QA任务的多语言迁移学习
+
+  - 20201215 AAAI-21 [Reinforced Multi-Teacher Selection for Knowledge Distillation](http://arxiv.org/abs/2012.06048)
+    - Using RL for teacher selection for KD
+    - 在知识蒸馏中用强化学习进行老师的选择
+
+  - 20201215 [Distant Domain Transfer Learning for Medical Imaging](https://arxiv.org/abs/2012.06346)
+    - Distant domain transfer learning for medical imaging
+    - 用于COVID检测的远领域迁移学习
+
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -89,22 +99,20 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 	- [Chelsea finn's Stanford CS330 class on multi-task and meta-learning - 2020斯坦福大学多任务与元学习教程CS330](https://www.bilibili.com/video/av91772677?p=12)
 
 - Brief introduction and slides 简介与ppt资料
-	- [Chinese introduction](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
-	- [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf)
-	- [PPT (中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
-	- 迁移学习中的领域自适应方法 Domain adaptation: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
-	- Transfer learning report by Mingsheng Long @ THU - 清华大学龙明盛老师的深度迁移学习报告：[PPT(Samsung)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-learning-talk.pdf)、[PPT(Google China)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-transfer-learning-talk.pdf)
+	- [Brief introduction in Chinese](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
+	- [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf) | [PPT (中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
+	- 迁移学习中的领域自适应方法 Domain adaptation: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video on Bilibili](https://www.bilibili.com/video/BV1T7411R75a/) | [Video on Youtube](https://www.youtube.com/watch?v=RbIsHNtluwQ&t=22s)
+	- Tutorial on transfer learning by Qiang Yang: [IJCAI'13](http://ijcai13.org/files/tutorial_slides/td2.pdf) | [2016 version](http://kddchina.org/file/IntroTL2016.pdf)
 
 - Talk is cheap, show me the code 动手教程、代码、数据 
-    - [Pytorch官方迁移学习示意代码](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+  - [Pytorch官方迁移学习示意代码](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
 	- [Pytorch的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
 	- [用Pytorch进行深度特征提取](https://github.com/jindongwang/transferlearning/tree/master/code/feature_extractor)
-	- [基于Tensorflow的几个深度adaptation实现](https://github.com/asahi417/DeepDomainAdaptation)
 	- [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code)
 
 - [Transfer Learning Scholars and Labs - 迁移学习领域的著名学者、代表工作及实验室介绍](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
 
-- [Negative transfer - 负迁移](https://www.zhihu.com/question/66492194/answer/242870418)？
+- [Negative transfer - 负迁移](https://www.zhihu.com/question/66492194/answer/242870418)
 
 - - -
 
@@ -147,7 +155,8 @@ Here are some articles on transfer learning theory and survey.
 - The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
 
 - Latest survey - 较新的综述：
-
+    - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
+    - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
     - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
 	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
@@ -186,8 +195,7 @@ Here are some articles on transfer learning theory and survey.
   - ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
     - Theory for universal machine translation
     - 对统一机器翻译模型进行了理论论证
-  - ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](http://proceedings.mlr.press/v97/zhang19i.html)
-  - 最近几年在ICML、NIPS、COLT、ALT上出现了一些理论分析的文章，以domain adaptation为关键字可以搜索到。
+
 
 - MMD (Maximum mean discrepancy):
   - MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)

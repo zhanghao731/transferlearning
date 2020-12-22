@@ -2,6 +2,49 @@
 
 迁移学习的应用
 
+- 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
+  - Transfer learning for vessel segmentation from retinal images
+  - 迁移学习用于视网膜血管分割
+
+- 20201215 AAAI-21 [Multilingual Transfer Learning for QA Using Translation as Data Augmentation](https://arxiv.org/abs/2012.05958)
+    - Multilingual transfer learning for QA
+    - 用于QA任务的多语言迁移学习
+
+- 20201215 AAAI-21 [Reinforced Multi-Teacher Selection for Knowledge Distillation](http://arxiv.org/abs/2012.06048)
+  - Using RL for teacher selection for KD
+  - 在知识蒸馏中用强化学习进行老师的选择
+
+- 20201215 [Distant Domain Transfer Learning for Medical Imaging](https://arxiv.org/abs/2012.06346)
+    - Distant domain transfer learning for medical imaging
+    - 用于COVID检测的远领域迁移学习
+
+- 20201215 AAAI-21 [Transfer Graph Neural Networks for Pandemic Forecasting](https://arxiv.org/abs/2009.08388)
+    - GNN and transfer learning for pandemic forecasting
+    - 用基于GNN的迁移学习进行流行病预测
+
+- 20201208 [Domain Adaptation of Aerial Semantic Segmentation](http://arxiv.org/abs/2012.02264)
+    - 用domain adaptation做航空图像分割
+- 20201208 [Fine-tuning BERT for Low-Resource Natural Language Understanding via Active Learning](http://arxiv.org/abs/2012.02462)
+    - 用BERT结合主动学习进行低资源的NLP任务
+
+- 20201116 [Cross-Domain Learning for Classifying Propaganda in Online Contents](https://arxiv.org/abs/2011.06844)
+    - 跨领域学习用于检测在线推广
+- 20201116 [Arabic Dialect Identification Using BERT-Based Domain Adaptation](https://arxiv.org/abs/2011.06977)
+    - 用基于BERT的domain adaptation进行阿拉伯方言识别
+- 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
+    - 量子神经网络中的finetune
+- 20201116 [A Study of Domain Generalization on Ultrasound-based Multi-Class Segmentation of Arteries, Veins, Ligaments, and Nerves Using Transfer Learning](https://arxiv.org/abs/2011.07019)
+    - Domain generalization用于医学分类
+
+- 20200927 [Transfer Learning by Cascaded Network to identify and classify lung nodules for cancer detection](https://arxiv.org/abs/2009.11587)
+    - 迁移学习用于肺癌检测
+
+- 20200927 EMNLP-20 [Feature Adaptation of Pre-Trained Language Models across Languages and Domains for Text Classification](https://arxiv.org/abs/2009.11538)
+    - 跨语言和领域的预训练模型用于文本分类
+
+- 20200914 [Transfer Learning of Graph Neural Networks with Ego-graph Information Maximization](https://arxiv.org/abs/2009.05204)
+    - 迁移学习用于GNN
+
 - 20200813 [Transfer Learning for Protein Structure Classification and Function Inference at Low Resolution](https://arxiv.org/abs/2008.04757)
     - 迁移学习用于低分辨率下的蛋白质结构分类
 

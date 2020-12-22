@@ -72,6 +72,27 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
+    - OOD generalization
+    - 用特征分解和语义增强做OOD泛化
+
+- 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
+    - 用label propagation做半监督domain adaptation
+- 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
+    - 用transformer做low-level的图像任务
+- 20201203 [Unpaired Image-to-Image Translation via Latent Energy Transport](https://arxiv.org/abs/2012.00649)
+    - 用能量模型做图像翻译
+- 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
+    - Deep ensemble models for transfer learning
+- 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
+    - Energy-based OOD
+
+- 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
+    - 加密情况下的MMD用于迁移学习
+
+- 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
+    - 分布无关的回归评价
 - 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
     - Recognizing unseen classes in unseen domains
     - 对未知领域识别未知类
@@ -411,6 +432,13 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20201214 WWW-20 [Domain Adaptation with Category Attention Network for Deep Sentiment Analysis](https://dl.acm.org/doi/abs/10.1145/3366423.3380088?casa_token=W6UxRKT4pDQAAAAA%3ACTbuFKp72M88OdbcURQSSua5XaM0GI2Y90795GGFv6ZiEx584ZGj8HT3x8nBSAUhvr2-DhQbnmVY1YM)
+	- Unify pivots and non-pivots, and provide interpretability for domain adaptation in sentiment analysis
+	- 统一pivots和non-pivots，并提供可解释性进行DA情感分析
+
+- 20201208 NIPS-20 [Heuristic Domain Adaptation](https://proceedings.neurips.cc/paper/2020/file/555d6702c950ecb729a966504af0a635-Paper.pdf)
+    - 启发式domain adaptation
+
 - 20200804 ECCV-20 spotlight [Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
     - 将现有的finetune机制进行扩展
     - Extending finetune mechanism
@@ -680,7 +708,7 @@ Including domain adaptation and partial domain adaptation.
 
 - 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
   	- Multi-source domain adaptation using both features and classifier adaptation
-  	- 利用特征和分类器同时适配进行多源迁移
+  	- 利用特征和分类器同时适配进行多源迁移，效果很好
 
 - 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
     - Multi-source transfer
@@ -769,6 +797,12 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20201203 [How to fine-tune deep neural networks in few-shot learning?](https://arxiv.org/abs/2012.00204)
+    - 对few-shot任务如何fine-tune深度网络？
+
+- 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
+    - 量子神经网络中的finetune
 
 - 20200608 ICML-20 [Few-Shot Learning as Domain Adaptation: Algorithm and Analysis](https://arxiv.org/abs/2002.02050)
     - Using domain adaptation to solve the few-shot learning
@@ -1321,6 +1355,12 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.9. Multi-task Learning (多任务学习)
+
+- 20200927 [Knowledge Distillation for Multi-task Learning](https://arxiv.org/abs/2007.06889)
+    - 针对多任务学习的知识蒸馏
+
+- 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
+    - 用bilevel programming解释多任务学习
 
 - 20191202 arXiv [AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning](https://arxiv.org/abs/1911.12423)
    - Learning what to share for multi-task learning
